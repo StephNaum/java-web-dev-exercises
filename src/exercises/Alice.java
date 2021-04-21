@@ -15,7 +15,6 @@ public class Alice {
         int index = searchable.indexOf(search);
         int length = search.length();
         System.out.println("Your selection is found at index " + index + " and your search term has a character length of " + length);
-        //String newWord = searchable.substring(index, length);
         String newWord = searchable.replace(search, "");
         System.out.println(newWord);
     } else {
